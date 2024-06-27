@@ -1,0 +1,198 @@
+body{
+
+
+    background-color: rgb(228, 248, 241);
+}
+
+
+
+header div{
+  display: flex;
+  align-items: center;
+
+  
+  
+  background-color: rgb(147, 177, 241);
+
+ }
+
+ header nav{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  background-color: beige;
+
+}
+
+
+
+header  nav ul li{
+
+
+
+    display: inline-block;
+
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid  rgb(6, 3, 3);
+    background-color: white;
+   
+       
+    
+
+
+
+
+}
+.c{
+  color: rgb(43, 40, 66);
+  font-size: 60px;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+ 
+
+  header nav :hover{
+   
+
+  color: lightblue;
+
+
+
+
+ }
+ h3{
+    background-color: rgb(250, 235, 226);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(48, 99, 166);
+    font-size: 45px;
+ }
+ ul li {
+    font-size: 20px;
+
+ }
+.compras{
+
+     text-align: center;
+    font-size: 25px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+ }
+ footer{
+    background-color: rgb(250, 235, 226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+   
+  }
+   footer i{
+    font-size:40px;
+    color: rgb(48, 99, 166);
+ 
+   }
+   p{
+    font-size: 16px;
+   }
+   h5{
+    font-size: 22px;
+    color: rgb(48, 99, 166);
+   }
+ 
+.ayuda p{
+  color: black;
+  text-decoration: underline none;
+}
+.ayuda :hover{
+  transform: scale(1.1);
+  font-size: 25px;
+}
+.Contactanos{
+     
+    display: inline-block;
+    display: flex;
+   align-items: center;
+
+  
+    
+   
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+h6{
+    font-size:15px;
+}
+.ph{
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+.at{
+  display: flex;
+  align-items: center;
+}
+
+
+.dir:hover{
+    transform: scale(1.1);
+  font-size: 25px;
+
+}
+@media(max-width:412px){
+  img{
+    height: 150px;
+    width: 180px;
+   }
+   .c{
+    font-size: 55px ;
+   }
+   main section h3{
+    font-size: 30.5px;
+   }
+   main section p{
+    font-size: 28px;
+   }
+   .compras{
+    font-size: 28px;
+   }
+   footer{
+    flex-direction: column;
+  }
+  .ayuda p{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline none;
+    }
+    .ayuda :hover{
+    transform: scale(1.1);
+    font-size: 25px;
+    }
+    .Contactanos{
+      flex-direction: column;
+    }
+   .Contactanos p{
+    font-size: 20px;
+   }
+   .Contactanos h6{
+    font-size: 20px;
+   }
+   .direccion p{
+    font-size: 20px;
+  
+   }
+  
+   .direccion  {
+    flex-direction: column;
+    
+   }
+   .direccion h6 {
+    font-size: 25px;
+   }
+   
+}
